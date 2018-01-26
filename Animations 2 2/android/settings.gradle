@@ -1,0 +1,29 @@
+rootProject.name = 'Animations'
+include ':react-native-fabric'
+project(':react-native-fabric').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-fabric/android')
+include ':react-native-firebase-crash-report'
+project(':react-native-firebase-crash-report').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-firebase-crash-report/android')
+include ':react-native-voice'
+project(':react-native-voice').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-voice/android')
+include ':react-native-spruce'
+project(':react-native-spruce').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-spruce/android')
+include ':react-native-sensor-manager'
+project(':react-native-sensor-manager').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-sensor-manager/android')
+include ':react-native-iconic'
+project(':react-native-iconic').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-iconic/android')
+include ':react-native-material-kit'
+project(':react-native-material-kit').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-material-kit/android')
+include ':react-native-p2pkit'
+project(':react-native-p2pkit').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-p2pkit/android')
+include ':react-native-geo-fencing'
+project(':react-native-geo-fencing').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-geo-fencing/android')
+include ':react-native-geo-fence'
+project(':react-native-geo-fence').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-geo-fence/android')
+include ':react-native-beacons-manager'
+project(':react-native-beacons-manager').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-beacons-manager/android')
+include ':react-native-nfc-manager'
+project(':react-native-nfc-manager').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-nfc-manager/android')
+include ':react-native-speech-recognizer'
+project(':react-native-speech-recognizer').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-speech-recognizer/android')
+
+include ':app'

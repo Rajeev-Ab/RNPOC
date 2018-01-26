@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Animations</string>
+    <string name="facebook_app_id">322487828239033</string>
+	<string name="fb_login_protocol_scheme">fb322487828239033</string>
+</resources>
